@@ -8,6 +8,8 @@ This package also contains an SCSS version of the styles with helpful variables 
 
 ### Variables
 
+The `$genesis-columns-breakpoint` variable can be overridden in your project. This is the minimum screen size at which the column widths should be applied.
+
 ```scss
 $genesis-columns: (
 	margin: 2.564102564102564%,
