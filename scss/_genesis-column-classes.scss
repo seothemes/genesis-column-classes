@@ -5,66 +5,69 @@
 @import "variables";
 @import "mixins";
 
-.one-half,
-.three-sixths,
-.two-fourths {
+@media only screen and (min-width: $genesis-columns-breakpoint) {
 
-	@include genesis-column(two-fourths);
-}
+	.one-half,
+	.three-sixths,
+	.two-fourths {
 
-.one-third,
-.two-sixths {
+		@include genesis-column(two-fourths);
+	}
 
-	@include genesis-column(two-sixths);
-}
+	.one-third,
+	.two-sixths {
 
-.four-sixths,
-.two-thirds {
+		@include genesis-column(two-sixths);
+	}
 
-	@include genesis-column(two-thirds);
-}
+	.four-sixths,
+	.two-thirds {
 
-.one-fourth {
+		@include genesis-column(two-thirds);
+	}
 
-	@include genesis-column(one-fourth);
-}
+	.one-fourth {
 
-.three-fourths {
+		@include genesis-column(one-fourth);
+	}
 
-	@include genesis-column(three-fourths);
-}
+	.three-fourths {
 
-.one-fifth {
+		@include genesis-column(three-fourths);
+	}
 
-	@include genesis-column(one-fifth);
-}
+	.one-fifth {
 
-.two-fifths {
+		@include genesis-column(one-fifth);
+	}
 
-	@include genesis-column(two-fifths);
-}
+	.two-fifths {
 
-.three-fifths {
+		@include genesis-column(two-fifths);
+	}
 
-	@include genesis-column(three-fifths);
-}
+	.three-fifths {
 
-.four-fifths {
+		@include genesis-column(three-fifths);
+	}
 
-	@include genesis-column(four-fifths);
-}
+	.four-fifths {
 
-.one-sixth {
+		@include genesis-column(four-fifths);
+	}
 
-	@include genesis-column(one-sixth);
-}
+	.one-sixth {
 
-.five-sixths {
+		@include genesis-column(one-sixth);
+	}
 
-	@include genesis-column(five-sixths);
-}
+	.five-sixths {
 
-.first {
+		@include genesis-column(five-sixths);
+	}
 
-	@include genesis-column(null, first);
+	.first {
+
+		@include genesis-column(null, first);
+	}
 }
