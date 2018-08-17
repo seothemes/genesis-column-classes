@@ -1,0 +1,70 @@
+//--------------------------------------------------------------
+// Genesis Column Classes
+// http://getbootstrap.com/2.3.2/assets/css/bootstrap-responsive.css
+//--------------------------------------------------------------
+@import "variables";
+@import "mixins";
+
+.one-half,
+.three-sixths,
+.two-fourths {
+
+	@include genesis-column(two-fourths);
+}
+
+.one-third,
+.two-sixths {
+
+	@include genesis-column(two-sixths);
+}
+
+.four-sixths,
+.two-thirds {
+
+	@include genesis-column(two-thirds);
+}
+
+.one-fourth {
+
+	@include genesis-column(one-fourth);
+}
+
+.three-fourths {
+
+	@include genesis-column(three-fourths);
+}
+
+.one-fifth {
+
+	@include genesis-column(one-fifth);
+}
+
+.two-fifths {
+
+	@include genesis-column(two-fifths);
+}
+
+.three-fifths {
+
+	@include genesis-column(three-fifths);
+}
+
+.four-fifths {
+
+	@include genesis-column(four-fifths);
+}
+
+.one-sixth {
+
+	@include genesis-column(one-sixth);
+}
+
+.five-sixths {
+
+	@include genesis-column(five-sixths);
+}
+
+.first {
+
+	@include genesis-column(null, first);
+}

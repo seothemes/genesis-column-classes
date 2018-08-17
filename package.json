@@ -1,0 +1,24 @@
+{
+  "name": "genesis-column-classes",
+  "version": "1.0.0",
+  "description": "CSS and Sass for Genesis Column Classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-gcc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seothemes/genesis-column-classes.git"
+  },
+  "keywords": [
+    "genesis-framework",
+    "sass",
+    "css"
+  ],
+  "author": "Lee Anthony",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seothemes/genesis-column-classes/issues"
+  },
+  "homepage": "https://github.com/seothemes/genesis-column-classes#readme"
+}

@@ -1,0 +1,12 @@
+//--------------------------------------------------------------
+// Genesis Column Classes Mixins
+//--------------------------------------------------------------
+@mixin genesis-column($width: null, $first: null) {
+	clear: if($first, both, none);
+	margin-left: if($first, 0, map_get($genesis-columns, margin));
+
+	@if null != $width {
+		float: left;
+		width: map_get($genesis-columns, $width);
+	}
+}
